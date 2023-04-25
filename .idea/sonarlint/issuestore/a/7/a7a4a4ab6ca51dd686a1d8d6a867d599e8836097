@@ -1,0 +1,16 @@
+
+E
+java:S3740"/Provide the parametrized type for this generic.(È´˜î
+E
+java:S3740"/Provide the parametrized type for this generic.(¦·Ş‘
+J
+java:S3740O"/Provide the parametrized type for this generic.(ú«¹¤ıÿÿÿÿ
+n
+java:S1450@"XRemove the "listMails" field and declare it as a local variable in the relevant methods.(¸•ë‰
+N	java:S106$"9Replace this use of System.out or System.err by a logger.(Ïñê
+c
+java:S5361\"HReplace this call to "replaceAll()" by a call to the "replace()" method.(²†ŒĞøÿÿÿÿ
+U
+java:S1128"?Remove this unused import 'javafx.beans.value.ObservableValue'.(´œ«Å
+[
+java:S1128"@Remove this unused import 'javax.mail.internet.InternetAddress'.(–¹“êûÿÿÿÿ

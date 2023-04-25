@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TreeView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.web.WebView?>
+
+<?import javafx.scene.control.MenuItem?>
+<VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.HelloController">
+    <children>
+        <MenuBar maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" useSystemMenuBar="true" VBox.vgrow="NEVER">
+            <menus>
+                <Menu fx:id="refresh" mnemonicParsing="false" text="Actualiser">
+                    <items>
+                        <MenuItem onAction="#refreshAction"  mnemonicParsing="false" text="Actualiser mails" />
+                    </items>
+                </Menu>
+                <Menu fx:id="menuAide" text="Aide">
+                    <MenuItem text="A propos" onAction="#showAboutDialog"/>
+                </Menu>
+            </menus>
+        </MenuBar>
+        <SplitPane dividerPositions="0.2836990595611285" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="368.0" prefWidth="640.0" VBox.vgrow="ALWAYS">
+            <items>
+                <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" prefHeight="374.0" prefWidth="177.0">
+                    <children>
+                        <TreeView fx:id="listingEmails" layoutX="-3.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="367.0" prefWidth="160.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                    </children>
+                </AnchorPane>
+                <AnchorPane maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" prefHeight="679.0" prefWidth="453.0">
+                    <children>
+                        <WebView fx:id="viewver" prefHeight="367.0" prefWidth="453.0" AnchorPane.bottomAnchor="-27.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                    </children>
+                </AnchorPane>
+            </items>
+        </SplitPane>
+        <HBox prefHeight="52.0" prefWidth="640.0">
+            <children>
+                <Label fx:id="statusLabel" text="Boite mail" />
+            </children>
+        </HBox>
+    </children>
+</VBox>

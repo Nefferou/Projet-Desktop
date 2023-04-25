@@ -1,0 +1,12 @@
+
+N
+java:S1854#"8Remove this useless assignment to local variable "auth".(ÒÃÈ
+Q
+java:S1854";Remove this useless assignment to local variable "toEmail".(Ø–³
+B
+java:S1481",Remove this unused "toEmail" local variable.(Ø–³
+P
+java:S1161$":Add the "@Override" annotation above this method signature(‡èú×
+?
+java:S1481#")Remove this unused "auth" local variable.(ÒÃÈ
+V	java:S125("<This block of commented-out lines of code should be removed.(Ò–Øëşÿÿÿÿ
